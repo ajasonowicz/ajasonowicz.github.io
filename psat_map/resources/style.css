@@ -25,7 +25,7 @@ html, body, #mapid {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
   text-align: left;
-  opacity: 0.88;
+  opacity: 0.95;
 }
 
 .legend {
@@ -38,8 +38,6 @@ html, body, #mapid {
   border-radius: 10px;
   text-align: left;
   line-height: 10px;
-
-
 }
 
 .legend i {
@@ -72,7 +70,8 @@ h1 {
 
 p {
     font: 15px 'Questrial',sans-serif;
-    color: #424242
+    color: #424242;
+    margin-bottom: 0.2em;
 }
 
 hr {

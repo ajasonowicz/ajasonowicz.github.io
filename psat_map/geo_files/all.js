@@ -171,13 +171,14 @@ legend.onAdd = function (mymap) {
         labels = [];
 
     div.innerHTML = '<h3 style="text-align:center;">Legend</h3><hr>'
-    div.innerHTML += '<i style="background:#3299BB"></i> release site'
+    div.innerHTML += '<i style="background:#3299BB"></i>&nbsp release site'
     // loop through our density intervals and generate a label with a colored square for each interval
     div.innerHTML += '<h4 style="text-align:center;">Pop Up Locations</h4><hr>'
     for (var i = 0; i < grades.length; i++) {
+
         div.innerHTML +=
-            '<i style="background:' + getPopupColor(grades[i]) + '"></i> ' +
-            grades[i] + (grades[i] ? '<br>' : '+');
+            '<i class="circle" style="background:' + getPopupColor(grades[i]) + '"></i> ' +
+            (grades[i] ? '&nbsp;' + grades[i] + '<br>' : '+');
     }
 
     return div;
