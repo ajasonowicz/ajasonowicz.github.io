@@ -178,7 +178,7 @@ legend.onAdd = function (mymap) {
 
         div.innerHTML +=
             '<i class="circle" style="background:' + getPopupColor(grades[i]) + '"></i> ' +
-            (grades[i] ? '&nbsp;' + grades[i] + '<br>' : '+');
+            (grades[i] ? '&nbsp; ' + grades[i] + '<br>' : '+');
     }
 
     return div;
