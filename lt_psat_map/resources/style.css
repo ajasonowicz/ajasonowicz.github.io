@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+html, body, #mapid {
+   height:100%;
+   width:100%;
+   padding:0px;
+   margin:0px;
+}
+/* css to customize Leaflet default styles  */
+/*.custom .leaflet-popup-tip,*/
+.custom .leaflet-popup-content-wrapper {
+    background: #fff;
+    color: #424242;
+    opacity: 0.88;
+    line-height: 0.1;
+    font-family: 'Questrial1',sans-serif;
+    width: 275;
+
+}
+
+.leaflet-control-layers {
+  font: 12px 'Questrial1', sans-serif;
+  color: #424242;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  text-align: left;
+  opacity: 0.95;
+}
+
+.legend {
+  padding: 10px 10px;
+  font: 12px 'Questrial1', sans-serif;
+  color: #424242;
+  background: white;
+  opacity: 0.88;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  text-align: left;
+  line-height: 10px;
+}
+
+.legend i {
+    text-align: left;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-left: 4px;
+    line-height: 1.1;
+
+}
+
+h4 {
+  font: 12px 'Questrial1', sans-serif;
+  font-weight: bold;
+  color: #424242;
+  margin-bottom: 0.2em;
+}
+
+h3 {
+  color: #3299BB;
+  margin-bottom: 0.2em;
+}
+
+h1 {
+  color: #3299BB;
+  font-family: 'Questrial',sans-serif;
+}
+
+p {
+    font: 15px 'Questrial',sans-serif;
+    color: #424242;
+    margin-bottom: 0.2em;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    opacity : 1;
+    border: 0;
+    border-bottom: 1px dashed #E9E9E9;
+    background: #BCBCBC;
+}
